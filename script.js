@@ -1,12 +1,7 @@
 // save reference to important DOM elements
 var timeDisplayEl = $('#currentDay');
-var eventDisplayEl = $('#event-display');
-var projectModalEl = $('#project-modal');
-var projectFormEl = $('#project-form');
-var projectNameInputEl = $('#project-name-input');
-var projectTypeInputEl = $('#project-type-input');
-var hourlyRateInputEl = $('#hourly-rate-input');
-var dueDateInputEl = $('#due-date-input');
+var eventDisplayEl = $('#container');
+
 
 // handle displaying the time
 function displayTime() {
@@ -14,7 +9,12 @@ function displayTime() {
   timeDisplayEl.text(rightNow);
 }
 
-setInterval(displayTime, 1000);
 
-function printEvent(event) {
-    var eventDisplayEl = $('<tr>');
+
+// handle event submission
+
+
+//add event listener on click to add event
+//
+
+setInterval(displayTime, 1000);
