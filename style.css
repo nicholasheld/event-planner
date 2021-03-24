@@ -71,8 +71,3 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-.container  {
-  background-color: rgb(226, 218, 218);
-  height: 80px;
-  border-top: 1px solid white;;
-}
